@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
-import 'package:google_fonts/google_fonts.dart';
-//import 'package:money_management/operation_card.dart';
+import 'package:money_management/import.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -61,7 +58,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   GestureDetector(
                     onTap: () {
                       //print("drawer tapped");
-                      
                     },
                     child: SvgPicture.asset(
                       "assets/Vector(drawer).svg",

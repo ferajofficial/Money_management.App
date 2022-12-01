@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:money_management/homescreen.dart';
-
+import 'package:money_management/import.dart';
 
 void main() {
   runApp(const MyApp());
@@ -39,7 +37,3 @@ class _MyHomePageState extends State<MyHomePage> {
     return const HomeScreen();
   }
 }
-
-
-
-  
